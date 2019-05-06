@@ -20,6 +20,7 @@ What does this code it do?:
   * Show a standalone implementation (No need to use OpenCV Manager app in the mobile)
   * Shows how to handle, in a basic way, the permissions to use phone camera
   * Shows a view with video stream from camera handled by OpenCV
+  * Apply two simple filter to live video (Canny -border detection-, Gray scale -Desaturate-)
   
 ***IMPORTANT***:
 If you build a new project, you need to copy the **jniLibs** folder from `app/src/main`.

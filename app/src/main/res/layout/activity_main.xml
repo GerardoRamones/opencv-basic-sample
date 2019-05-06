@@ -30,6 +30,32 @@
             android:visibility="visible"/>
 
         <LinearLayout
+            android:id="@+id/navButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/footer"
+            android:padding="5dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnNormalView"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btnCanny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnCanny"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btnBW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnBW"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
             android:id="@+id/footer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

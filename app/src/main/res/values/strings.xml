@@ -2,4 +2,8 @@
     <string name="app_name">opencv01</string>
     <string name="app_author">\u0040codigomx</string>
     <string name="explanation">This app requires access to your camera to show you how to use it with OpenCV.</string>
+
+    <string name="btnNormalView">No Filter</string>
+    <string name="btnCanny">Canny</string>
+    <string name="btnBW">Gray Scale</string>
 </resources>
